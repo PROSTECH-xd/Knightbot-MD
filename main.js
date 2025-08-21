@@ -102,8 +102,8 @@ const sudoCommand = require('./commands/sudo');
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Unique Hacker";
+global.channelLink = "https://whatsapp.com/channel/0029VbAvkp796H4Tc23Y970T";
+global.ytch = "Prosper";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -112,7 +112,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterName: 'PROS XD',
             serverMessageId: -1
         }
     }
@@ -931,7 +931,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: channelId,
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'PROS XD',
                             serverMessageId: -1
                         }
                     }
