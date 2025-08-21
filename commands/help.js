@@ -5,13 +5,13 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || '𝙋𝙍𝙊𝙎 𝙓𝘿'}*  
    Version: *${settings.version || '2.0.5'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Prosper'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
-*Available Commands:*
+*All Commands:*
 
 ╔═══════════════════╗
 🌐 *General Commands*:
@@ -174,7 +174,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: '𝙋𝙍𝙊𝙎 𝙓𝘿',
                         serverMessageId: -1
                     }
                 }
@@ -188,7 +188,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: '𝙋𝙍𝙊𝙎 𝙓𝘿 by Prosper',
                         serverMessageId: -1
                     } 
                 }
